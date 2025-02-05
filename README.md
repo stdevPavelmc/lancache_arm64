@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-Test
-=======
 # Docker Compose for a full-stack lancache.
 
 Pavel's build_stack: A rapid hack to build an updated version of the lancache for the Orange Pi Prime or any other arm64/v8 SBC out there.
@@ -11,8 +8,6 @@ This will produce the following images:
 - pavelmc/lancache_monolithic:latest
 
 The original README follows.
-
-![Docker Pulls](https://img.shields.io/docker/pulls/lancachenet/monolithic?label=Monolithic) ![Docker Pulls](https://img.shields.io/docker/pulls/lancachenet/lancache-dns?label=Lancache-dns) ![Docker Pulls](https://img.shields.io/docker/pulls/lancachenet/sniproxy?label=Sniproxy) ![Docker Pulls](https://img.shields.io/docker/pulls/lancachenet/generic?label=Generic)
 
 This docker-compose is meant as an example for running our lancache stack, It will run out of the box with minimal changes to the `.env` file for your local IP address and disk settings.
 
@@ -97,4 +92,3 @@ For a list of all timezones see https://en.wikipedia.org/wiki/List_of_tz_databas
 The LanCache docker-stack is generated automatically from the data over at [UKLans](https://github.com/uklans/cache-domains). All services that are listed in the UKLans repository are available and supported inside this docker-compose.
 
 For an FAQ see https://lancache.net/docs/faq/
->>>>>>> 498cb5e (Itinial commit from the original repos)
